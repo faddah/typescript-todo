@@ -1,0 +1,10 @@
+.DS_Store
+
+.vscode/
+.vscode/**
+
+*.code-workspace
+
+node_modules/
+node_modules/**
+
