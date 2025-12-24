@@ -1,0 +1,26 @@
+{
+  "name": "typescript-todo",
+  "version": "0.0.1",
+  "description": "A basic TODO App in TypeScript from Web Dev Simplified's video on YouTube — https://www.youtube.com/watch?v=jBmrduvKl5w.",
+  "keywords": [
+    "TypeScript",
+    "JavaScript",
+    "ToDo",
+    "WebDevSimplified"
+  ],
+  "homepage": "https://github.com/faddah/typescript-todo#readme",
+  "bugs": {
+    "url": "https://github.com/faddah/typescript-todo/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/faddah/typescript-todo.git"
+  },
+  "license": "ISC",
+  "author": "Faddah Wolf",
+  "type": "esm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
