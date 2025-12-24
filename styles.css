@@ -1,0 +1,23 @@
+* {
+
+}
+
+body {
+    font-family: AppleGothic, Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+#list {
+    list-style: none;
+    padding: 0;
+}
+
+#list form input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    width: 40%;
+    box-sizing: border-box;
+}
