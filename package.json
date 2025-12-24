@@ -18,8 +18,8 @@
   },
   "license": "ISC",
   "author": "Faddah Wolf",
-  "type": "esm",
-  "main": "index.js",
+  "type": "module",
+  "main": "dist/scripts.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
