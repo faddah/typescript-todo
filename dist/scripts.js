@@ -1,3 +1,3 @@
-console.log("Yo! It's TypeScrip, dude!");
-export {};
+"use strict";
+console.log("Yo! It's TypeScript, dude!");
 //# sourceMappingURL=scripts.js.map
