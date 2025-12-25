@@ -1,9 +1,9 @@
 {
   "include": ["src", "types"],
   "compilerOptions": {
-    "module": "esnext",
+    "module": "nodenext",
     "target": "esnext",
-    "moduleResolution": "bundler",
+    "moduleResolution": "nodenext",
     "jsx": "preserve",
     /* paths - import rewriting/resolving */
     "paths": {
