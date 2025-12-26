@@ -5,6 +5,9 @@
 
 import confetti from 'canvas-confetti';
 
+console.log(`Runnin' dat TypeScript, y'awll!`);
+
+
 confetti.create(document.getElementById('canvas') as HTMLCanvasElement, {
   resize: true,
   useWorker: true,
