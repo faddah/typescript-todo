@@ -1,4 +1,11 @@
-# New Project
+
+# Simple TODO Project in TypeScript
+
+## From **[Web Dev Simplified](https://www.youtube.com/@WebDevSimplified)'s** YouTube Instructional Video, **"[How To Build Your First TypeScript Project - TODO List Application](https://www.youtube.com/watch?v=jBmrduvKl5w)."**
+
+### This is a simple TODO application built using TypeScript, HTML, and CSS. It allows users to add, complete, and delete tasks from their TODO list
+
+## Info Generated from `npx create-snowpack` README below —
 
 > ✨ Bootstrapped with Create Snowpack App (CSA).
 
@@ -7,7 +14,7 @@
 ### npm start
 
 Runs the app in the development mode.
-Open http://localhost:8080 to view it in the browser.
+Open `[http://localhost:8080](http://localhost:8080)` to view it in the browser.
 
 The page will reload if you make edits.
 You will also see any lint errors in the console.
