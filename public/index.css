@@ -32,6 +32,13 @@ body {
 #list {
   list-style: none;
   padding: 0;
+  margin-bottom: 2rem;
+}
+
+#list li label input[type="checkbox"] {
+  margin-right: 1rem;
+  padding-bottom: 0.25rem;
+  transform: scale(2);
 }
 
 form input[type="text"] {
