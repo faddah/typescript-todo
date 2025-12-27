@@ -58,9 +58,10 @@ form?.addEventListener('submit', e => {
     completed: false,
     createdAt: new Date(),
   }
-  tasks.push(newTask);
-
   addListItem(newTask);
+  tasks.push(newTask);
+  saveTasks();
+
 
   input.value = '';
 });
