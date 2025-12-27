@@ -37,8 +37,9 @@ body {
 
 #list li label input[type="checkbox"] {
   margin-right: 1rem;
-  padding-bottom: 0.25rem;
+  padding-bottom: 1rem;
   transform: scale(2);
+  vertical-align: middle;
 }
 
 form input[type="text"] {
