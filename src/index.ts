@@ -30,11 +30,12 @@ const addListItem = (task: Task): void => {
   const li: HTMLLIElement | null = document.createElement('li');
   const label: HTMLLabelElement = document.createElement('label');
   const checkbox: HTMLInputElement = document.createElement('input');
-  checkbox.type = 'checkbox';
   checkbox.addEventListener('change', () => {
     task.completed = checkbox.checked;
     saveTasks();
   });
+  checkbox.type = 'checkbox';
+  checkbox.checked = task.completed;
   label.append(checkbox, task.title);
   li.append(label);
   list?.append(li);
